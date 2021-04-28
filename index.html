@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Times new roman, Helvetica, sans-serif;}
+
+.navbar {
+  width: none;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+</style>
+<body>
+<div class="navbar">
+ <a class="active" href="#"></i> Home</a> 
+  <a href="file:///C:/Users/sarit/Desktop/Sarita%20Varma/website(comp%20repairing)/About%20me/About/index.html">About</a>
+
+  
+  <a href="file:///C:/Users/sarit/Desktop/Sarita%20Varma/website(comp%20repairing)/detailandsummary.html">Services</a>  
+
+  <li style=""><a href="file:///C:/Users/sarit/Desktop/Sarita%20Varma/website(comp%20repairing)/Contact%20us/index.html">Contact-Us</a>
+</div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #111;
+        }
+        .row {
+            display: flex;
+        }
+
+        .service {
+            align-items: stretch;
+            flex-shrink: 0;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .section-title {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        .section-title h2 {
+            font-size: 13px;
+            letter-spacing: 1px;
+            font-weight: 700;
+            padding: 8px 20px;
+            line-height: 1;
+            margin: 0;
+            background: rgba(255, 252, 252, 0.925);
+            color: #7CFC00;
+            display: inline-block;
+            text-transform: uppercase;
+            border-radius: 50px;
+            font-family: "Nunito", sans-serif
+        }
+
+        .section-title h3 {
+            margin: 15px 0 0 0;
+            font-size: 32px;
+            font-weight: 700;
+            font-family: "Nunito", sans-serif;
+            color: rgba(255, 255, 255, 0.849);
+        }
+
+        span {
+            color: #7CFC00
+        }
+
+        .services {
+            padding: 60px 0;
+            overflow: hidden;
+        }
+
+        .services .container {
+            max-width: 1060px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .services .icon-box {
+            padding: 60px 30px;
+            position: relative;
+            overflow: hidden;
+            background: #111;
+            box-shadow: 2px 0 35px 0 rgba(235, 237, 243, 0.048);
+            transition: all 0 ease-in-out;
+            border-radius: 8px;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .services .icon-box::before {
+            content: "";
+            position: absolute;
+            background: #111;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 100%;
+            
+            z-index: -1;
+        }
+
+        .services .icon-box:hover::before {
+            background: #899499;
+            top: 0;
+            border-radius: 0px;
+        }
+
+        .services .icon {
+            margin-bottom: 15px;
+        }
+
+        .services .icon i {
+            font-size: 48px;
+            line-height: 1;
+            color: #7CFC00;
+            
+        }
+
+        .services .title {
+            font-weight: 700;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .services .title a {
+            color: #7CFC00;
+            text-decoration: none;
+            padding-top: 100px;
+        }
+
+        .services .description {
+            font-size: 15px;
+            line-height: 28px;
+            margin-bottom: 0;
+            color: rgba(255, 255, 255, 0.884);
+        }
+
+        .services .icon-box:hover .title a,
+        .services .icon-box:hover .description {
+            color: #7CFC00;
+        }
+
+        .services .icon-box:hover .icon i {
+            color: #7CFC00;
+        }
+
+        @media (min-width: 899px) {
+            .service {
+                flex: 0 0 auto;
+                width: 25%;
+            }
+
+            .container {
+                max-width: 720px;
+                margin-right: auto;
+                margin-left: auto;
+                padding-top:7px;
+            }
+
+        }
+
+        @media (max-width: 900px) {
+            .row {
+                padding-right: calc(2.5rem/ 2);
+                padding-left: calc(2.5rem/ 2);
+                flex-wrap: wrap;
+            }
+
+
+            .service {
+                flex: 0 0 auto;
+                width: 50%;
+                margin-bottom: 3rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .service {
+                flex: 0 0 auto;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+           <center><img src="bappa.jpg" width="90" height="100" alt="bappa"></center>
+<body>
+>
+    <section id="services" class="services">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Services</h2><br></br>
+                <h3>We do offer awesome <span>Services</span></h3><br></br>
+            </div>
+
+            <div class="row">
+                <div class="service">
+                    <div class="icon-box">
+                        <div class="icon"></div>
+                        <center><img src="Cmp.jpg" width="90" height="70"></center>
+                        <h4 class="title"><a href="file:///C:/Users/sarit/Desktop/Sarita%20Varma/website(comp%20repairing)/page.html">Desktop & Laptop Service</a></h4>
+                        <p class="description">Any Problems Related Laptop and Desktop Contact On Given Number
+                         </p>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="icon-box">
+                        <div class="icon"></div>
+                        <center><img src="EE.jpg" width="90" height="70"></center>
+                        <h4 class="title"><a href="file:///C:/Users/sarit/Desktop/Sarita%20Varma/website(comp%20repairing)/EEpage.html">Electrical Maintenance</a></h4>
+                        <p class="description">Provides Electrical Maintenance To Ensure The Smooth Running Of Productions Lines & EE Installations
+                           </p>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="icon-box">
+                        <div class="icon"><</div>
+                        <center><img src="UPS.jpg" width="90" height="70"></center>
+                        <h4 class="title"><a href="file:///C:/Users/sarit/Desktop/Sarita%20Varma/website(comp%20repairing)/UPSpage.html">UPS Maintaince</a></h4>
+                        <p class="description">With UPS Maintaince Printer Installation & Toner Refilling Also Here!!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="icon-box">
+                        <div class="icon"></div>
+                        <center><img src="cctv.jpg" width="90" height="70"></center>
+                        <h4 class="title"><a href="file:///C:/Users/sarit/Desktop/Sarita%20Varma/website(comp%20repairing)/cctvpage.html">CCTV Installations</a></h4>
+                        <p class="description">CCTV Systems Use Cameras To Capture Video Footage of a Facility 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Services Section -->
+    <script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
+    
+
+     <head>
+      <TITLE>FOOTER TAG</TITLE>
+      <style>
+        .column{
+          float:left;
+          width:444px;
+          height: 200px;
+          background-color: #818589;
+        }
+        p{
+          font-size: 20px;
+          font-weight: bold;
+
+        }
+      </style>
+    </head>
+    <body>
+      <footer>
+        <div class="column">
+           <p>Location </p>
+           <ul style="">
+             Nashik , Maharashtra<br>
+               422-009
+              </ul>
+          </ul>
+        </div>
+        <div class="column">
+          <p>Contact</p>
+          <ul>
+            <ul style="list-style-type:disc;">
+            <li>(Shivam Shinde)  8999652485,7875026886</li>
+            <li>(Omkar Patole)   7020235565</li>
+            <li>(Milind Chavan)  8208564588</li>
+            <li>(Jayesh Mahajan) 7218976836</li>
+          </ul>
+        </div>
+        <div class="column">
+          <p>Business Hours</p>
+          <ul style="list-style-type: disc">
+            <li>Sunday-Monday 8am To 8pm</li>
+            <li>Tuesday-Wednesday 8am To 8pm</li>
+            <li>Thursday-Friday 8am To 8pm</li>
+            <li>Saturday 8am To 8pm</li>
+          </ul>
+          <p><center>Created By Sarita Varma</center>
+          <center>@Copyright-2021</center></p>
+        </div>
+      </footer>
+      </body>
+</html> 
+</body>
+</html> 
